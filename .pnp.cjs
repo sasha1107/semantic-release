@@ -48,6 +48,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:22.16.3"],\
           ["@types/supertest", "npm:6.0.3"],\
           ["conventional-changelog-conventionalcommits", "npm:9.1.0"],\
+          ["conventional-changelog-eslint", "npm:6.0.0"],\
           ["eslint", "virtual:7ec8ec8de7d378c56293887621954a0debfe1883b99306a7fc28cf131275f96cea93e445cc28bec6168fe31bce34f5dd7ad697eff680261a45c2d35f3c72ed08#npm:9.31.0"],\
           ["eslint-config-prettier", "virtual:7ec8ec8de7d378c56293887621954a0debfe1883b99306a7fc28cf131275f96cea93e445cc28bec6168fe31bce34f5dd7ad697eff680261a45c2d35f3c72ed08#npm:10.1.5"],\
           ["eslint-plugin-prettier", "virtual:7ec8ec8de7d378c56293887621954a0debfe1883b99306a7fc28cf131275f96cea93e445cc28bec6168fe31bce34f5dd7ad697eff680261a45c2d35f3c72ed08#npm:5.5.1"],\
@@ -5711,6 +5712,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["compare-func", "npm:2.0.0"],\
           ["conventional-changelog-conventionalcommits", "npm:9.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["conventional-changelog-eslint", [\
+      ["npm:6.0.0", {\
+        "packageLocation": "../../.yarn/berry/cache/conventional-changelog-eslint-npm-6.0.0-6dc0d97b11-10c0.zip/node_modules/conventional-changelog-eslint/",\
+        "packageDependencies": [\
+          ["conventional-changelog-eslint", "npm:6.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -11520,6 +11530,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:22.16.3"],\
           ["@types/supertest", "npm:6.0.3"],\
           ["conventional-changelog-conventionalcommits", "npm:9.1.0"],\
+          ["conventional-changelog-eslint", "npm:6.0.0"],\
           ["eslint", "virtual:7ec8ec8de7d378c56293887621954a0debfe1883b99306a7fc28cf131275f96cea93e445cc28bec6168fe31bce34f5dd7ad697eff680261a45c2d35f3c72ed08#npm:9.31.0"],\
           ["eslint-config-prettier", "virtual:7ec8ec8de7d378c56293887621954a0debfe1883b99306a7fc28cf131275f96cea93e445cc28bec6168fe31bce34f5dd7ad697eff680261a45c2d35f3c72ed08#npm:10.1.5"],\
           ["eslint-plugin-prettier", "virtual:7ec8ec8de7d378c56293887621954a0debfe1883b99306a7fc28cf131275f96cea93e445cc28bec6168fe31bce34f5dd7ad697eff680261a45c2d35f3c72ed08#npm:5.5.1"],\
