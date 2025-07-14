@@ -9445,6 +9445,11 @@ __metadata:
     tsconfig-paths: "npm:^4.2.0"
     typescript: "npm:^5.7.3"
     typescript-eslint: "npm:^8.20.0"
+  dependenciesMeta:
+    "@semantic-release/commit-analyzer@13.0.1":
+      unplugged: true
+    conventional-changelog-conventionalcommits@9.1.0:
+      unplugged: true
   languageName: unknown
   linkType: soft
 
