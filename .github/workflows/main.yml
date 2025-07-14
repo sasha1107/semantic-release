@@ -26,7 +26,6 @@ jobs:
         with:
           node-version: "lts/*"
           cache: yarn
-          registry-url: "https://npm.pkg.github.com/"
           scope: "@github-id"
 
       - name: Install dependencies
