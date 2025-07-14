@@ -9,7 +9,6 @@ permissions:
 
 jobs:
   release:
-    name: release
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -25,16 +24,16 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "lts/*"
-          cache: yarn
-          scope: "@github-id"
 
       - name: Install dependencies
-        run: yarn install
+        run: |
+          corepack enable
+          yarn install
 
       - name: Build
         run: yarn build
 
       - name: Run semantic-release
-        run: npx semantic-release
+        run: yarn semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
