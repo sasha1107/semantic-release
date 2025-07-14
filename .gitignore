@@ -64,6 +64,9 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 !.yarn/versions
 
 # Yarn cache
+# PnP 환경 기준
 .pnp.*
+!.pnp.cjs
+
 .yarnrc.yml
 .yarn/cache/
